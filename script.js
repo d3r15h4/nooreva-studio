@@ -1,1 +1,17 @@
-document.querySelectorAll('section').forEach(s=>{s.classList.add('hidden');});const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.15});document.querySelectorAll('section').forEach(s=>io.observe(s));
+window.addEventListener("scroll",function(){
+
+const header=document.querySelector("header");
+
+if(window.scrollY>100){
+
+header.classList.add("scrolled");
+
+}
+
+else{
+
+header.classList.remove("scrolled");
+
+}
+
+});
