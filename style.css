@@ -34,13 +34,35 @@ z-index:100;
 
 .logo{
 
+display:flex;
+
+flex-direction:column;
+
+line-height:1;
+
+}
+
+.logo-top{
+
 font-family:"Playfair Display",serif;
 
-font-size:30px;
+font-size:42px;
 
-letter-spacing:2px;
+letter-spacing:6px;
 
-color:white;
+font-weight:600;
+
+}
+
+.logo-bottom{
+
+margin-top:8px;
+
+letter-spacing:12px;
+
+font-size:11px;
+
+font-family:Inter,sans-serif;
 
 }
 
