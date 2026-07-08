@@ -68,16 +68,63 @@ header.scrolled .logo{
     color:#1F1F1F;
 }
 
-.logo-top{
-    font-family:"Playfair Display",serif;
-    font-size:38px;
-    letter-spacing:6px;
+.logo{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:flex-start;
+
+text-decoration:none;
+
+color:white;
+
 }
 
-.logo-bottom{
-    margin-top:8px;
-    font-size:11px;
-    letter-spacing:10px;
+.logo-image{
+
+width:230px;
+
+height:auto;
+
+display:block;
+
+transition:.3s;
+
+}
+
+.brand-signature{
+
+margin-top:8px;
+
+margin-left:8px;
+
+font-size:14px;
+
+font-family:"Playfair Display",serif;
+
+font-style:italic;
+
+letter-spacing:1px;
+
+color:white;
+
+opacity:.9;
+
+transition:.3s;
+
+}
+
+header.scrolled .brand-signature{
+
+color:#1F1F1F;
+header.scrolled .logo-image{
+
+width:190px;
+
+}
+   
 }
 
 nav{
