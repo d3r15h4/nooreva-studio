@@ -543,3 +543,38 @@ nav{
 }
 
 }
+.header-icons{
+
+display:flex;
+
+gap:25px;
+
+align-items:center;
+
+}
+
+.header-icons a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:22px;
+
+transition:.3s;
+
+}
+
+header.scrolled .header-icons a{
+
+color:#1F1F1F;
+
+}
+
+.header-icons a:hover{
+
+transform:translateY(-3px);
+
+color:#B08D57;
+
+}
