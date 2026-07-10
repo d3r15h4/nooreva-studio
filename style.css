@@ -56,42 +56,25 @@ header.scrolled{
     padding:18px 8%;
 }
 
+./* ===== LOGO ===== */
+
 .logo{
     display:flex;
-    flex-direction:column;
-    line-height:1;
+    align-items:center;
     text-decoration:none;
-    color:white;
-}
-
-header.scrolled .logo{
-    color:#1F1F1F;
-}
-
-.logo{
-
-display:flex;
-
-flex-direction:column;
-
-align-items:flex-start;
-
-text-decoration:none;
-
-color:white;
-
+    z-index:1001;
+    flex-shrink:0;
 }
 
 .logo-image{
+    width:420px;      /* Increase or decrease this value */
+    height:auto;
+    display:block;
+    transition:all .35s ease;
+}
 
-width:230px;
-
-height:auto;
-
-display:block;
-
-transition:.3s;
-
+header.scrolled .logo-image{
+    width:360px;
 }
 
 .brand-signature{
